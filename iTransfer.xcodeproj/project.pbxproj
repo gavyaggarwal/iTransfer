@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8570A26F14126AE80070C355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8570A26E14126AE80070C355 /* UIKit.framework */; };
+		8570A27114126AE80070C355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8570A27014126AE80070C355 /* Foundation.framework */; };
+		8570A27314126AE80070C355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8570A27214126AE80070C355 /* CoreGraphics.framework */; };
+		8570A27914126AE80070C355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8570A27714126AE80070C355 /* InfoPlist.strings */; };
+		8570A27B14126AE80070C355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570A27A14126AE80070C355 /* main.m */; };
+		8570A27F14126AE80070C355 /* iTransferAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570A27E14126AE80070C355 /* iTransferAppDelegate.m */; };
+		8570A28214126AE80070C355 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8570A28014126AE80070C355 /* MainWindow.xib */; };
+		8570A28514126AE80070C355 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570A28414126AE80070C355 /* FirstViewController.m */; };
+		8570A28814126AE80070C355 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570A28714126AE80070C355 /* SecondViewController.m */; };
+		8570A28B14126AE80070C355 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8570A28914126AE80070C355 /* FirstView.xib */; };
+		8570A28E14126AE80070C355 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8570A28C14126AE80070C355 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8570A26A14126AE80070C355 /* iTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8570A26E14126AE80070C355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8570A27014126AE80070C355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8570A27214126AE80070C355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8570A27614126AE80070C355 /* iTransfer-Info.plist */ = {isa = PBXFileReference; path = "iTransfer-Info.plist"; sourceTree = "<group>"; };
+		8570A27814126AE80070C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8570A27A14126AE80070C355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8570A27C14126AE80070C355 /* iTransfer-Prefix.pch */ = {isa = PBXFileReference; path = "iTransfer-Prefix.pch"; sourceTree = "<group>"; };
+		8570A27D14126AE80070C355 /* iTransferAppDelegate.h */ = {isa = PBXFileReference; path = iTransferAppDelegate.h; sourceTree = "<group>"; };
+		8570A27E14126AE80070C355 /* iTransferAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTransferAppDelegate.m; sourceTree = "<group>"; };
+		8570A28114126AE80070C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8570A28314126AE80070C355 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8570A28414126AE80070C355 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8570A28614126AE80070C355 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8570A28714126AE80070C355 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8570A28A14126AE80070C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		8570A28D14126AE80070C355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8570A26714126AE80070C355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8570A26F14126AE80070C355 /* UIKit.framework in Frameworks */,
+				8570A27114126AE80070C355 /* Foundation.framework in Frameworks */,
+				8570A27314126AE80070C355 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8570A25F14126AE70070C355 = {
+			isa = PBXGroup;
+			children = (
+				8570A27414126AE80070C355 /* iTransfer */,
+				8570A26D14126AE80070C355 /* Frameworks */,
+				8570A26B14126AE80070C355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8570A26B14126AE80070C355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8570A26A14126AE80070C355 /* iTransfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8570A26D14126AE80070C355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8570A26E14126AE80070C355 /* UIKit.framework */,
+				8570A27014126AE80070C355 /* Foundation.framework */,
+				8570A27214126AE80070C355 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8570A27414126AE80070C355 /* iTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				8570A27D14126AE80070C355 /* iTransferAppDelegate.h */,
+				8570A27E14126AE80070C355 /* iTransferAppDelegate.m */,
+				8570A28014126AE80070C355 /* MainWindow.xib */,
+				8570A28314126AE80070C355 /* FirstViewController.h */,
+				8570A28414126AE80070C355 /* FirstViewController.m */,
+				8570A28614126AE80070C355 /* SecondViewController.h */,
+				8570A28714126AE80070C355 /* SecondViewController.m */,
+				8570A28914126AE80070C355 /* FirstView.xib */,
+				8570A28C14126AE80070C355 /* SecondView.xib */,
+				8570A27514126AE80070C355 /* Supporting Files */,
+			);
+			path = iTransfer;
+			sourceTree = "<group>";
+		};
+		8570A27514126AE80070C355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8570A27614126AE80070C355 /* iTransfer-Info.plist */,
+				8570A27714126AE80070C355 /* InfoPlist.strings */,
+				8570A27A14126AE80070C355 /* main.m */,
+				8570A27C14126AE80070C355 /* iTransfer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8570A26914126AE80070C355 /* iTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8570A29114126AE80070C355 /* Build configuration list for PBXNativeTarget "iTransfer" */;
+			buildPhases = (
+				8570A26614126AE80070C355 /* Sources */,
+				8570A26714126AE80070C355 /* Frameworks */,
+				8570A26814126AE80070C355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTransfer;
+			productName = iTransfer;
+			productReference = 8570A26A14126AE80070C355 /* iTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8570A26114126AE70070C355 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8570A26414126AE70070C355 /* Build configuration list for PBXProject "iTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8570A25F14126AE70070C355;
+			productRefGroup = 8570A26B14126AE80070C355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8570A26914126AE80070C355 /* iTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8570A26814126AE80070C355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8570A27914126AE80070C355 /* InfoPlist.strings in Resources */,
+				8570A28214126AE80070C355 /* MainWindow.xib in Resources */,
+				8570A28B14126AE80070C355 /* FirstView.xib in Resources */,
+				8570A28E14126AE80070C355 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8570A26614126AE80070C355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8570A27B14126AE80070C355 /* main.m in Sources */,
+				8570A27F14126AE80070C355 /* iTransferAppDelegate.m in Sources */,
+				8570A28514126AE80070C355 /* FirstViewController.m in Sources */,
+				8570A28814126AE80070C355 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8570A27714126AE80070C355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8570A27814126AE80070C355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8570A28014126AE80070C355 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8570A28114126AE80070C355 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8570A28914126AE80070C355 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8570A28A14126AE80070C355 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		8570A28C14126AE80070C355 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8570A28D14126AE80070C355 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8570A28F14126AE80070C355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8570A29014126AE80070C355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8570A29214126AE80070C355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTransfer/iTransfer-Prefix.pch";
+				INFOPLIST_FILE = "iTransfer/iTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8570A29314126AE80070C355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTransfer/iTransfer-Prefix.pch";
+				INFOPLIST_FILE = "iTransfer/iTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8570A26414126AE70070C355 /* Build configuration list for PBXProject "iTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8570A28F14126AE80070C355 /* Debug */,
+				8570A29014126AE80070C355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8570A29114126AE80070C355 /* Build configuration list for PBXNativeTarget "iTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8570A29214126AE80070C355 /* Debug */,
+				8570A29314126AE80070C355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8570A26114126AE70070C355 /* Project object */;
+}
