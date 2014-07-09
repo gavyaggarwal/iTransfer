@@ -7,16 +7,15 @@
 //
 
 #import "FirstViewController.h"
+#import "FileListController.h"
 
 @implementation FirstViewController
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
-{
+{    
     [super viewDidLoad];
 }
-*/
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -40,4 +39,12 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (void)dealloc {
+    [super dealloc];
+}
+- (IBAction)showModal:(id)sender {
+    FileListController *vc = [[FileListController alloc] init];
+    [self presentModalViewController:vc animated:TRUE];
+    //[vc release];
+}
 @end

@@ -1,0 +1,33 @@
+/* 
+  File.strings
+  iTransfer
+
+  Created by Gavy Aggarwal on 7/9/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+ */
+
+"BASE_URL" = "http://feistapps.com/app/itransfer/";
+"SETTINGS_REMOTE_FILE_NAME" = "settings.php";
+"USER_BACKGROUND_NOTIFICATION_ONE_MINUTE_BODY" = "Your background transfers will be automatically terminated in one minute. Open the app so your transfers can continue.";
+"USER_BACKGROUND_NOTIFICATION_ONE_MINUTE_ACTION" = "Add Time";
+"FILE_IMPORTED_COMPLETED_ALERT_TITLE" = "File Imported";
+"FILE_IMPORTED_COMPLETED_ALERT_MESSAGE" = "%@ has been successfully imported into iTransfer.";
+"FILE_IMPORTED_COMPLETED_ALERT_CANCEL_BUTTON" = "OK";
+"FILE_IMPORTED_FAILED_ALERT_TITLE" = "File Import Failed";
+"FILE_IMPORTED_FAILED_ALERT_MESSAGE" = "%@ was unable to be imported: %@";
+"FILE_IMPORTED_FAILED_ALERT_CANCEL_BUTTON" = "OK";
+"MAIL_COMPOSER_DEFAULT_SUBJECT" = "iTransfer File";
+"MAIL_COMPOSER_DEFAULT_MESSAGE" = "I received this file from my buddy using a cool app called iTransfer.";
+"MAIL_UNSUPPORTED_ALERT_TITLE" = "Error Composing Email";
+"MAIL_UNSUPPORTED_ALERT_MESSAGE" = "Email is not configured properly on your device.";
+"REVIEW_PROMPT_TITLE" = "Like iTransfer?";
+"REVIEW_PROMPT_MESSAGE" = "Show your love for this app by leaving a review. Your transfers will continue in the background while you're gone.";
+"PURCHASE_PROMPT_LABEL" = "File Over 5 MB Limit (Upgrade Needed)";
+"PURCHASE_PROMPT_TITLE" = "Remove File Size Limit?";
+"PURCHASE_PROMPT_MESSAGE" = "You must unlock the feature to transfer files over 5 MB. Would you like to do it now?";
+"MUSIC_NOT_FOUND_LABEL" = "Unable to Locate Song on Filesystem";
+"MUSIC_NOT_FOUND_TITLE" = "Unable to Locate Song";
+"MUSIC_NOT_FOUND_MESSAGE" = "The selected song could not be retrieved from your music library. If you use iTunes Match, please ensure that the song is downloaded.";
+"EXPORT_FAILURE_LABEL" = "Unable to Convert Song File";
+"EXPORT_FAILURE_TITLE" = "Unable to Convert Song";
+"EXPORT_FAILURE_MESSAGE" = "The selected song could not be converted for transfer because it is protected. Please try a song that does not have DRM.";

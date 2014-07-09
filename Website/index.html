@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>iTransfer Webconnect</title>
+  <style type="text/css">
+	@font-face {
+	  	font-family: 'Kaushan Script';
+	  	font-style: normal;
+	  	font-weight: 400;
+	  	src: local('Kaushan Script'), local('KaushanScript-Regular'), url(kaushan-script.woff) format('woff');
+	}
+	body {
+		background-color: #00BD39;
+		background: url(bg.png);
+		color: #FAFAFA;
+		text-shadow: 0px -1px 1px #666;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+		background-attachment: fixed;
+	}
+	#background {
+		background: #00BD39;
+		position: fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.7;
+		z-index: -1;
+	}
+	#header {
+		font-family: "Kaushan Script", "Helvetica", sans-serif;
+		font-size: 2.5em;
+		width:800px;
+		margin: 10px auto;
+		line-height: 54px;
+		padding: 0;
+	}
+	#icon-container {
+		width: 48px;
+		height: 48px;
+		border: 3px solid #FAFAFA;
+		background-color: #FAFAFA;
+		border-radius: 9px;
+		display: inline-block;
+		float: left;
+		box-shadow: 0px -0.5px 1px black;
+	}
+	#content {
+		width: 800px;
+		margin: 10px auto;
+		font-size: 0.9em;
+		padding: 20px 0px
+	}
+	#file-table {
+		font-size: 12px;
+		margin: 10px auto;
+		width: 80%;
+		border-collapse: collapse;
+		text-align: left;
+	}
+	#file-table th {
+		font-size: 14px;
+		font-weight: normal;
+		padding: 10px 8px;
+		border-bottom: 2px solid #F0F0F0;
+	}
+	#file-table td {
+		border-bottom: 1px solid #ccc;
+		color: #EEEEEE;
+		padding: 6px 8px;
+	}
+	#file-table tbody tr:hover td {
+		color: #FAFAFA;
+	}
+	#file-table tbody tr:hover {
+		background: transparent;
+	}
+	#footer {
+		width: 800px;
+		margin: 10px auto;
+		text-align: center;
+		font-size: 0.8em;
+	}
+	a {
+		color: white;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="background"></div>
+  <div id="header">
+    <div id="icon-container">
+     <img src="itransfer-icon.png" style="width:48px;height:48px;" alt="" />
+    </div>
+    <span>&nbsp;iTransfer</span>
+    <span style="float:right;">Webconnect</span>
+  </div>
+  <div id="content">
+   The files from your iTransfer Library on your device are listed below. To save a file to your computer, click its name or right click it and select "Save Link As..."
+   <table id="file-table" summary="iTransfer Received Files">
+    <thead>
+     <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Size</th>
+      <th scope="col">Date Modified</th>
+     </tr>
+    </thead>
+    <tbody>
+     %content%
+    </tbody>
+   </table>
+  </div>
+  <div id="footer">
+   Hosted on %devicename%
+   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   iTransfer %appversion%
+   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="http://feistapps.com/itransfer">Support</a>
+   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   Copyright 2013 Feist Apps
+  </div>
+ </body>
+</html>

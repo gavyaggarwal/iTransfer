@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+}
+
+- (IBAction)showModal:(id)sender;
 
 @end
